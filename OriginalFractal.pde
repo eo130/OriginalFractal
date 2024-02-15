@@ -16,7 +16,7 @@ public void myFractal( int x, int y, int siz)
   ellipse(x,y-250,siz,siz);
   ellipse(x-250,y,siz,siz);
   ellipse(x+250,y,siz,siz);
-   if(siz>35)
+   if(siz>31)
   {
     myFractal(x+siz/2,y,siz/2);
     myFractal(x-siz/2,y,siz/2);
